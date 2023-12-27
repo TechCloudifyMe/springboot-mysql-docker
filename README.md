@@ -4,10 +4,11 @@
   - install git
   - install maven
   - install docker
-### create a package using following commands
+### create a package and docker image using following commands
 ```
 git clone <repalce-your-git-url>
 mvn clean istall
+docker build -t <your-docker-imagename>:<version> .
 ```
 ### create a dokcer network
 ```
